@@ -1,0 +1,19 @@
+#body{
+
+    width :  500px;
+    height : auto;
+    border: 2px solid black;
+    margin: 250px;
+    border-radius: 10px;
+    display: flex;
+}
+
+#imgg{
+    width: 292px;
+    height: auto;
+}
+
+#prices{
+    display: flex;
+    justify-content: space-around;
+}
