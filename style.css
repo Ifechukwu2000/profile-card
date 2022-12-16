@@ -1,3 +1,10 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    
+}
+
+
+
 #body{
 
     width :  500px;
@@ -6,6 +13,9 @@
     margin: 250px;
     border-radius: 10px;
     display: flex;
+    background-color: white;
+    
+    
 }
 
 #imgg{
@@ -16,4 +26,40 @@
 #prices{
     display: flex;
     justify-content: space-around;
+}
+
+.oda{
+   padding-left: 20px;
+}
+
+.new{
+    color:  hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+#tex{
+    color:  hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    
+}
+
+#perf{
+    color:  hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+#mai{
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    font-size: 25px;
+    
+}
+
+#pri{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: 25px;
 }
