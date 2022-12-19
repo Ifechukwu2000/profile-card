@@ -10,7 +10,8 @@ body{
     width :  500px;
     height : auto;
     border: 2px solid black;
-    margin: 250px;
+    margin-top: 100px;
+    margin-left: 100px;
     border-radius: 10px;
     display: flex;
     background-color: white;
@@ -90,4 +91,42 @@ body{
 
 #cat{
     padding-bottom: 30px;
+}
+
+#imgg2{
+    display: none;
+}
+
+@media screen and (max-width:600px){
+    #perf{
+        color: red;
+    }
+    
+    #body{
+
+        width :  292px;
+        height : auto;
+        border: 2px solid black;
+        margin-top: 100px;
+        margin-left: 100px;
+        border-radius: 10px;
+        display: block;
+        background-color: white;
+        
+        
+    }
+
+    #imgg{
+        width: 292px;
+        height: auto;
+        display: none;
+    }
+
+    #imgg2{
+        display: block;
+        width: 292px;
+        height: auto;
+        
+    }
+    
 }
