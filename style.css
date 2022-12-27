@@ -1,11 +1,12 @@
 body{
     background-color: hsl(30, 38%, 92%);
+    align-items: center;
     
 }
 
 
 
-#body{
+main{
 
     width :  500px;
     height : auto;
@@ -15,8 +16,9 @@ body{
     border-radius: 10px;
     display: flex;
     background-color: white;
-    
-    
+    margin: auto;
+    margin-top: 150px;
+   
 }
 
 #imgg{
@@ -54,11 +56,11 @@ body{
     font-size: 12px;
 }
 
-#mai{
+h1{
     color: hsl(212, 21%, 14%);
     font-family: 'Fraunces', serif;
     font-size: 25px;
-    
+    margin-left: 10px;
 }
 
 #pri{
@@ -100,7 +102,7 @@ body{
 @media screen and (max-width:600px){
    
     
-    #body{
+    main{
 
         width :  292px;
         height : auto;
@@ -110,6 +112,7 @@ body{
         border-radius: 10px;
         display: block;
         background-color: white;
+        margin-bottom: 80px;
         
         
     }
